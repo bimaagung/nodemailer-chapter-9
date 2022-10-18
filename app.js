@@ -13,8 +13,8 @@ const transport = nodemailer.createTransport({
 })
 
 transport.sendMail({
-    from: '"Bima" <bimaagung.labs@gmail.com>',
-    to: "otetnews@gmail.com",
+    from: `"Bima" <${process.env.EMAIL_FROM}>`,
+    to: process.env.EMAIL_TO,
     subject: "Submission: Chapter-9 Challenge#Bima Agung Setya Budi",
     text: "Favorite Song: I'm Good (Blue) | link github: https://github.com/bimaagung/nodemailer-chapter-9.git",
     html: `<body style="font-family: sans-serif;">
