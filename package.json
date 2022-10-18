@@ -1,0 +1,24 @@
+{
+  "name": "nodemailer-chapter-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimaagung/nodemailer-chapter-9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bimaagung/nodemailer-chapter-9/issues"
+  },
+  "homepage": "https://github.com/bimaagung/nodemailer-chapter-9#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.8.0"
+  }
+}
