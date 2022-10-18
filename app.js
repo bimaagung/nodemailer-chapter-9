@@ -3,7 +3,6 @@ const nodemailer = require('nodemailer');
 
 
 const transport = nodemailer.createTransport({
-    //Gmail 
     host: "smtp.gmail.com",
     port: 465,
     secure: true,
@@ -34,4 +33,3 @@ transport.sendMail({
 
 console.log('Mengirim pesan .....');
 
-// https://myaccount.google.com/apppasswords for get password
